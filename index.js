@@ -9,4 +9,6 @@ import morgan from "morgan"
 import path from "path"
 import { fileURLToPath } from "url"
 
-// CONFIGURATIONS
+/* CONFIGURATIONS */
+
+const __filename = fileURLToPath(import.meta.url)
